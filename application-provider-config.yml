@@ -16,7 +16,7 @@ spring:
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql:///test02?serverTimezone=UTC   #useUnicode=true&amp;characterEncoding=UTF-8
+    url: jdbc:mysql:///mybatis?serverTimezone=UTC   #useUnicode=true&amp;characterEncoding=UTF-8
     username: root
     password: root
 
