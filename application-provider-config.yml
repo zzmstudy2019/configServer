@@ -46,4 +46,7 @@ spring:
     url: jdbc:mysql:///test03?serverTimezone=UTC   #useUnicode=true&amp;characterEncoding=UTF-8
     username: root
     password: root
-  o
+
+eureka:
+  client:
+    service-url: http://eureka8200.com:8200/eureka
