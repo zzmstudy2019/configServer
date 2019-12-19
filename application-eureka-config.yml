@@ -4,14 +4,12 @@ spring:
     name: abcms-eurekaServer-config
 
 server:
-  port: 9001
+  port: 8100
 
 
 eureka:
   instance:
     hostname: eureka8100.com #指定eureka的主机
-
-
   client:
     register-with-eureka: false #指定是否向注册中心注册自己
     fetch-registry: false #指定此客户端能否获取eureka注册信息
@@ -26,7 +24,7 @@ spring:
     name: abcms-eurekaServer-config
 
 server:
-  port: 9002
+  port: 8200
 
 eureka:
   instance:
