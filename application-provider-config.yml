@@ -23,6 +23,10 @@ spring:
     password: root
 
 
+  main:
+    allow-bean-definition-overriding: true
+
+
 eureka:
   client:
     service-url: http://eureka8100.com:8100/eureka
@@ -48,6 +52,9 @@ spring:
     url: jdbc:mysql:///test03?serverTimezone=UTC   #useUnicode=true&amp;characterEncoding=UTF-8
     username: root
     password: root
+
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   client:
